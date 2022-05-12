@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: 'Ovo', serif;
+    
 
 }
 
@@ -573,7 +574,8 @@ h3 {
 }
 
 .mainIndex {
-
+   
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
     grid-area: mainIndex;
 }
 
@@ -713,6 +715,7 @@ h3 {
 /* GRID Y RESPONSIVE SOLAPA CONTACTO*/
 
 .gridContacto {
+    
     display: grid;
     grid-template-areas:
         "headerContacto headerContacto"
@@ -721,6 +724,9 @@ h3 {
         "posicionFormulario mapas"
         "fotoContacto mapas"
         "footerIndex footerIndex";
+
+        
+       
 }
 
 .headerContacto {
@@ -954,4 +960,8 @@ grid-template-areas:
    
 }
 
+
+body {
+    background-image:linear-gradient(bottom right, #fc5c7d, #6a82fb);
+}
 }
